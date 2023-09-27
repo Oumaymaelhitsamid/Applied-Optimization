@@ -62,7 +62,6 @@ pip install pulp
 
 - To address the assignment problem, we employ the **Gurobi** library.
 - You can obtain Gurobi by following the installation instructions on their official website.
-- 
 - The script will present:
   - The optimal assignment of workers to tasks.
   - The total cost of the assignment.
