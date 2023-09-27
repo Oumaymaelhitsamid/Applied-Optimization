@@ -24,3 +24,45 @@ This lab provides a practical exploration of unweighted and weighted single-sour
 - Application of Kruskal's Algorithm to the graph, sorting edges by weight, and systematically adding them to the minimum spanning tree
 - Presentation of the resulting minimum spanning tree and its total weight
 - Practical exercise providing hands-on experience with Kruskal's Algorithm and optimization in graph theory.
+
+**Lab4-Linear Programming and Assignment Problem Solvers**
+It tackles two problems:
+
+1)**Problem Description**
+
+- Linear programming aims to maximize a linear objective function while adhering to linear constraints.
+- For example:
+  - Maximize: 2x + 3y
+  - Constraints:
+    1. x + y ≤ 4
+    2. x ≥ 1
+    3. y ≥ 2
+    4. x, y ≥ 0
+
+**Usage**
+
+- For solving the linear programming problem, we utilize the **PuLP** library.
+- You can install PuLP via pip:
+
+pip install pulp
+
+- The script will display:
+  - The status of the solution.
+  - The optimal values of the decision variables.
+  - The optimal objective value.
+
+### Assignment Problem
+
+**Problem Description**
+
+- The assignment problem addresses the optimal allocation of workers to tasks, minimizing costs.
+- In our example, we use a 4x4 cost matrix representing worker-task assignments.
+
+**Usage**
+
+- To address the assignment problem, we employ the **Gurobi** library.
+- You can obtain Gurobi by following the installation instructions on their official website.
+- 
+- The script will present:
+  - The optimal assignment of workers to tasks.
+  - The total cost of the assignment.
