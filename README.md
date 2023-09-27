@@ -28,7 +28,9 @@ This lab provides a practical exploration of unweighted and weighted single-sour
 **Lab4-Linear Programming and Assignment Problem Solvers**
 It tackles two problems:
 
-1)**Problem Description**
+### Linear Programming Problem
+
+**Problem Description**
 
 - Linear programming aims to maximize a linear objective function while adhering to linear constraints.
 - For example:
@@ -42,9 +44,7 @@ It tackles two problems:
 **Usage**
 
 - For solving the linear programming problem, we utilize the **PuLP** library.
-- You can install PuLP via pip:
-
-pip install pulp
+- You can install PuLP via pip: pip install pulp
 
 - The script will display:
   - The status of the solution.
