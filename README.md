@@ -1,8 +1,10 @@
 # Applied-Optimization Labs within Linköping university
-**Lab1- Fondamentals** This Optimization Lab, explores fundamental concepts in graph theory and optimization. It covers various aspects,
+**Lab1- Fondamentals** 
+
+This Optimization Lab, explores fundamental concepts in graph theory and optimization. It covers various aspects,
 including graph visualization using NetworkX and Matplotlib, adjacency matrix representation, queue operations, and topological sorting algorithms.
 
-**Lab 2: Shortest Paths - Summary**
+**Lab 2: Shortest Paths**
 
 Question 1: Unweighted Single-Source Shortest Paths
 - The lab begins by defining a Graph class to represent a directed graph and to facilitate graph-related operations.
@@ -15,7 +17,7 @@ Question 2: Positive Weighted Single-Source Shortest Paths
 - An example weighted graph is provided, and the shortest paths from a source vertex ('5') to all other vertices are computed and presented.
 This lab provides a practical exploration of unweighted and weighted single-source shortest path algorithms, offering insights into their implementation and complexity.
 
-**Lab3- Minimum Spanning Tree (Kruskal's Algorithm) :**
+**Lab3- Minimum Spanning Tree (Kruskal's Algorithm)**
 - Implementation of Kruskal's Algorithm to find the minimum spanning tree of a given graph
 - Definition of a Graph class for creating and managing graphs
 - Functions for adding edges, searching for precedents or parents of nodes, and handling the union operation
